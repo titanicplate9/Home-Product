@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "mont-bold";
+  src: url(/Font/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "poppins-medium";
+  src: url(/Font/poppins/Poppins-Medium.ttf);
+}
+* {
+  font-family: "poppins-medium";
+  margin: 0;
+  padding: 0;
+  transition: all 1s;
+}
+
+.Discover-home-page-img {
+  width: 100%;
+  height: 37rem;
+}
+
+.colorPrimary {
+  color: #b88e2f;
+}
+
+.blackColor {
+  color: #333333;
+}
+
+.Discover-home-page-text {
+  position: absolute;
+  right: 2rem;
+  top: 0;
+}
+
+.Discover-home-page {
+  position: relative;
+}
