@@ -4,16 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/shop.css">
+    <link rel="stylesheet" href="/css/header.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="banner">
-  <span class="title">shop</span>
+  <header>
+        <div class="header">
+
+            <div class="displayFlex header-logo">
+                <img src="/img/header-logo.png" alt="">
+
+                <h3 class="fontSize2">Furniro</h3>
+            </div>
+
+            <nav>
+                <ul class="displayFlex ulHeader fontpaping">
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+              </nav>
+
+            <div class="iconHeader">
+                <img src="/img/personHeader.svg" class="iconSize">
+
+                <img src="/img/searchHeader.svg">
+
+                <img src="/img/heartHeader.svg">
+
+                <img src="/img/shopingHeader.svg">
+            </div>
+
+        </div>
+    </header>
+  <main>
+    <section class="banner">
+  <span class="title">Shop</span>
   <div class="links">
     <a class="home--link" href="#">Home &nbsp; <img src="/img/Vector-right.png" alt=""></a>
     <a class="shop--link" href="#">Shop</a>
   </div>
-</div>
+    </section>
+    <section class="filter-bar">
+  <button class="filter-btn"><img src="/img/filter-setting.png" alt="">&nbsp; Filter</button>
+  
+  <div class="left-icons">
+    <i class="icon icon1"><img src="/img/grid-show.png" alt=""></i>
+    <i class="icon icon2"><img src="/img/view-list.png" alt=""></i>
+  </div>
+
+  <div class="separator"></div>
+  
+  <p class="info-text">Showing 1–16 of 32 results</p>
+  
+  <div class="right-group">
+    <span class="label1">Show</span>
+    <input type="text1" class="input1" readonly><span class="placeholder">16</span>
+    <span class="label2">Short by</span>
+    <input type="text2" class="input2" readonly><span class="placeholder">Default</span>
+  </div>
+    </section>
+  </main>
 
 </body>
 </html>
