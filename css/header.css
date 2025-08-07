@@ -40,6 +40,7 @@
 
 .fontpaping li {
   font-family: "poppins-medium" !important;
+  cursor: pointer;
 }
 
 .fontSize2 {
@@ -56,6 +57,7 @@
 }
 .iconHeader img {
   height: 1.5rem;
+  cursor: pointer;
 }
 .iconSize {
   height: 1.3rem !important;
