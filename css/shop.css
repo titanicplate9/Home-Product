@@ -26,11 +26,14 @@
   text-align: center;
   padding: 8rem;
 }
-
 .title {
   font-size: 2.9rem;
   margin-bottom: 0.5rem;
   font-family: "poppins-medium";
+}
+
+ .title:hover{
+  opacity: 0;
 }
 
 .links {
@@ -98,8 +101,10 @@
 .right-group {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
   margin-left: auto; /* برای قرارگیری در انتهای نوار */
+      justify-content: flex-end;
+      
 }
 
 .right-group .label1,
@@ -109,9 +114,14 @@
   color: #555;
 }
 
-.input1{
-  width: 7%;
-    height: 2.5rem;
+.input1 {
+  width: 35%;
+  height: 2.5rem;
+}
+
+.input2 {
+  width: 45%;
+  height: 2.5rem;
 }
 
 .right-group input {
@@ -120,6 +130,35 @@
   border-radius: 3px;
 }
 
-.links a:hover {
+.input-container1,
+.input-container2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
+.input-container1{
+  width: 22%;
+}
+
+.placeholder1 {
+  font-size: 1.5rem;
+  pointer-events: none;
+  position: absolute;
+  left: 5.75rem;
+  bottom: 1.4rem;
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.placeholder2{
+  font-size: 1.5rem;
+  position: absolute;
+  left: 8rem;
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.links a:hover {
 }
