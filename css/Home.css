@@ -28,10 +28,31 @@
 
 .Discover-home-page-text {
   position: absolute;
-  right: 2rem;
-  top: 0;
+  right: 3rem;
+  bottom: 6.5rem;
+  background-color: #fff3e3;
+  width: 32rem;
+  height: 20rem;
+  padding-left: 2rem;
+  padding-top: 3rem;
 }
 
 .Discover-home-page {
   position: relative;
+}
+
+.margin-top1 {
+  margin-top: 0.5rem;
+}
+
+.backPrimary {
+  background-color: #b88e2f;
+  color: #ffffff;
+}
+
+.buttonHome {
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  margin-top: 3rem;
 }
