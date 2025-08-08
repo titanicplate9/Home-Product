@@ -98,7 +98,7 @@
 }
 
 .Inner-Page {
-  width: 100%;
+  width: 92.74vw;
   height: 40rem;
   background-color: #fcf8f3;
   padding-left: 6rem;
@@ -123,5 +123,59 @@
   border: none;
   color: #ffffff;
   font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.Inner-page-img1 {
+  position: relative;
+}
+
+.textabsolute {
+  display: flex;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+
+.lineDiv {
+  background-color: #616161;
+  height: 1px;
+  width: 1.5rem;
+  margin: 0 7px 0 7px;
+}
+
+.colorGray2 {
+  color: #616161;
+  font-size: 0.9rem;
+}
+
+.spanInner {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+}
+
+.background-color1 {
+  background-color: #ffffffb8;
+  width: 13rem;
+  height: 7rem;
+}
+
+.displayFlex2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottonTextabsolute {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  background-color: #b88e2f;
   cursor: pointer;
 }
