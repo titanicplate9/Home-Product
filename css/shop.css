@@ -276,7 +276,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  opacity: 0;
+  opacity: 1;
   z-index: 2;
 }
 
@@ -295,6 +295,7 @@
   cursor: pointer;
   color: #b88e2f;
   font-family: "poppins-semibold";
+  font-size: 1.2rem;
 }
 
 .icons{
@@ -305,13 +306,14 @@
 }
 
 .icons img{
-  margin-right: 0.1rem;
+  margin-right: 0.2rem;
 }
 
 .icons span{
   color: white;
   font-family: "poppins-semibold";
-  font-size: 1.2rem;
+  font-style: normal;
+  font-size: 1.1rem;
 }
 
 article a {
