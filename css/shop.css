@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 7rem;
+  padding: 8rem;
 }
 
 .title {
@@ -121,4 +121,5 @@
 }
 
 .links a:hover {
+
 }
