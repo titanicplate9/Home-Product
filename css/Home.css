@@ -179,3 +179,15 @@
   background-color: #b88e2f;
   cursor: pointer;
 }
+
+.Inner-page-img2 {
+  width: 30rem;
+  margin-left: 2rem;
+}
+.Inner-page-img2 img {
+  margin-bottom: 2rem;
+}
+
+.widthCustomImg {
+  width: 7rem;
+}
