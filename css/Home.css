@@ -242,10 +242,14 @@
   background-color: white;
   width: 15rem;
   height: 3rem;
-  border: 2px solid #B88E2F;
+  border: 2px solid #b88e2f;
   font-size: 1rem;
-  color: #B88E2F;
+  color: #b88e2f;
+  cursor: pointer;
 }
-.show-more-a{
-  text-align: center;
+.show-more-a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  cursor: default;
 }
