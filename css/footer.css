@@ -1,0 +1,91 @@
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+footer h2 {
+  font-size: 1.5rem;
+  font-family: "poppins-bold";
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer nav{
+  margin-top: 1rem;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.footer-title p {
+  width: 85%;
+  line-height: 1.6;
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.footer-links h4 , .give-email h4{
+  font-family: "poppins-medium";
+  font-weight: normal;
+  color: gray;
+  margin-bottom: 2.8rem;
+  margin-top: 0.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  font-family: "poppins-medium";
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.footer-links ul li {
+  list-style: none;
+}
+
+.give-email input {
+  border: none;
+  border-bottom: 1px solid black;
+  color: black;
+  padding: 0.13rem;
+  width: 13rem;
+}
+
+.give-email button {
+  border: none;
+  border-bottom: 1px solid black;
+  color: black;
+  cursor: pointer;
+  font-family: "poppins-medium";
+  font-weight: normal;
+  background-color: transparent;
+}
+
+.give-email input::placeholder{
+  font-family: "poppins-regular";
+}
+
+.copy-right{
+  width: 85.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.copy-right span{
+  font-family: "poppins-regular";
+}
