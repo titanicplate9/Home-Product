@@ -15,6 +15,18 @@
   font-family: "poppins-regular";
   src: url(/Font/poppins/Poppins-Regular.ttf);
 }
+@font-face {
+  font-family: "poppins-semibold";
+  src: url(/Font/poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "poppins-light";
+  src: url(/Font/poppins/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "poppins-bold";
+  src: url(/Font/poppins/Poppins-Bold.ttf);
+}
 .banner {
   background-image: url(/img/banner-shop-background.png); /* مسیر تصویر پس‌زمینه */
   background-size: cover;
@@ -32,7 +44,7 @@
   font-family: "poppins-medium";
 }
 
- .title:hover{
+.title:hover {
   opacity: 0;
 }
 
@@ -103,8 +115,7 @@
   align-items: center;
   gap: 1.5rem;
   margin-left: auto; /* برای قرارگیری در انتهای نوار */
-      justify-content: flex-end;
-      
+  justify-content: flex-end;
 }
 
 .right-group .label1,
@@ -138,10 +149,10 @@
   gap: 1rem;
 }
 
-.input-container1{
+.input-container1 {
   width: 22%;
 }
-.input-container2{
+.input-container2 {
   margin-right: 4rem;
 }
 
@@ -149,13 +160,13 @@
   font-size: 1.5rem;
   pointer-events: none;
   position: absolute;
-  left: 5.75rem;
+  left: 5.95rem;
   bottom: 1.4rem;
   font-family: "poppins-regular";
   color: gray;
 }
 
-.placeholder2{
+.placeholder2 {
   font-size: 1.5rem;
   position: absolute;
   left: 8rem;
@@ -163,42 +174,62 @@
   color: gray;
 }
 
-.links a:hover {
-}
-
-.ticles-containerar{
-  display: flex;
-  padding: 0 6rem;
-  gap: 2.5rem;
-}
-
-.products-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.product-card {
+.products-section {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  gap: 2.5rem;
+  margin-top: 4rem;
 }
 
-.product-card .img-wrapper img {
-  width: 100%;
-  height: auto;
-  display: block;
+.page-number{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 
-.product-name,
-.product-note,
-.product-price {
-  margin: 0.5rem 0;
+.page-number button{
+  background-color: #f9f1e7;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 1.8rem;
+  font-family: "poppins-light";
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
-article a{
-  text-decoration: none;
-  color: black;
+.page-number button:active ,
+.page-number button:focus{
+  background-color: #b88e2f;
+  color: white
 }
 
+.our-services{
+  display: flex;
+  background-color: #f9f1e7;
+  padding: 4rem 2rem;
+  justify-content: space-around;
+}
+
+.service{
+  display: flex;
+  gap: 0.5rem;
+  padding: 1.5rem;
+}
+
+.service-content{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.service-content h3{
+  font-family: "poppins-semibold";
+}
+
+.service-content span{
+  font-family: "poppins-medium";
+  color: rgb(182, 182, 182);
+}
