@@ -181,10 +181,6 @@
   margin-top: 4rem;
 }
 
-article{
-  background-color: rgb(245, 245, 245);
-}
-
 .page-number{
   display: flex;
   justify-content: center;
