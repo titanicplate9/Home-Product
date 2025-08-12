@@ -4,6 +4,10 @@
   gap: 2.5rem;
 }
 
+article{
+  background-color: rgb(245, 245, 245);
+}
+
 .products-container {
   display: flex;
   flex-wrap: wrap;
