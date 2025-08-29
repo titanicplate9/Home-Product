@@ -288,3 +288,52 @@
 .Share-your-setup-with-text h1 {
   color: #3a3a3a;
 }
+
+.Share-your-setup-with-pictures {
+  margin-top: 2rem;
+  height: 20rem;
+  width: 100%;
+  display: flex;
+}
+
+.positionRelative {
+  position: relative;
+}
+
+.axes {
+  margin-bottom: 0.5rem;
+}
+.axes2 {
+  margin-right: 0.8rem;
+}
+.axes3 {
+  margin-right: 1.2rem;
+  margin-left: -17.15rem;
+}
+.golgol {
+  position: absolute;
+  top: 0;
+  width: 23rem;
+}
+
+.share {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexcolumn {
+  flex-direction: column;
+}
+
+.share-your2 {
+  margin-left: 1rem;
+  margin-top: 10rem;
+}
+.share-your2 img {
+  width: 24rem;
+  height: 30rem;
+}
+
+.withwidth{
+  width: 30rem;
+}
