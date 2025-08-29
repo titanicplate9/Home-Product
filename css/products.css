@@ -162,3 +162,7 @@ article a {
   flex-direction: column;
   gap: 0.5rem;
 }
+
+article{
+  background-color: rgb(245, 245, 245);
+}
