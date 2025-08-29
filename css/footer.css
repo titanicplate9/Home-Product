@@ -4,6 +4,8 @@ footer {
   padding: 3rem 0;
   flex-wrap: wrap;
   gap: 3rem;
+  height: 24.7rem;
+  border-top: 1px solid #d9d9d9;
 }
 
 footer h2 {
@@ -15,7 +17,7 @@ footer ul {
   list-style-type: none;
 }
 
-footer nav{
+footer nav {
   margin-top: 1rem;
 }
 
@@ -32,7 +34,8 @@ footer nav{
   color: gray;
 }
 
-.footer-links h4 , .give-email h4{
+.footer-links h4,
+.give-email h4 {
   font-family: "poppins-medium";
   font-weight: normal;
   color: gray;
@@ -74,17 +77,19 @@ footer nav{
   background-color: transparent;
 }
 
-.give-email input::placeholder{
+.give-email input::placeholder {
   font-family: "poppins-regular";
 }
 
-.copy-right{
+.copy-right {
   width: 85.5%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.copy-right span{
+.copy-right span {
   font-family: "poppins-regular";
+  padding-top: 2rem;
+  border-top: 1px solid #d9d9d9;
 }

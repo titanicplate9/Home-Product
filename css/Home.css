@@ -275,7 +275,7 @@
 }
 
 .Share-your-setup-with {
-  height: 40rem;
+  height: 55rem;
   padding-top: 3rem;
 }
 
@@ -291,7 +291,7 @@
 
 .Share-your-setup-with-pictures {
   margin-top: 2rem;
-  height: 20rem;
+  height: 46rem;
   width: 100%;
   display: flex;
 }
@@ -327,13 +327,31 @@
 
 .share-your2 {
   margin-left: 1rem;
-  margin-top: 10rem;
 }
 .share-your2 img {
-  width: 24rem;
-  height: 30rem;
+  width: 20rem;
+  height: 27rem;
 }
 
-.withwidth{
-  width: 30rem;
+.withwidth {
+  width: 31.1rem;
+}
+
+.margin-left1rem {
+  margin-left: 1rem;
+}
+.marginRight1rem {
+  margin-right: 0.8rem;
+}
+.margin-top1rem {
+  margin-top: 0.5rem;
+}
+
+.widthCustomImg2 {
+  width: 18.58rem;
+}
+
+.toptoptop {
+  margin-bottom: 1.4rem;
+  width: 18rem;
 }
