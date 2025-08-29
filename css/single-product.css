@@ -2,22 +2,27 @@
   font-family: "mont-bold";
   src: url(/Font/Montserrat/Montserrat-Bold.ttf);
 }
+
 @font-face {
   font-family: "poppins-medium";
   src: url(/Font/poppins/Poppins-Medium.ttf);
 }
+
 @font-face {
   font-family: "poppins-regular";
   src: url(/Font/poppins/Poppins-Regular.ttf);
 }
+
 @font-face {
   font-family: "poppins-semibold";
   src: url(/Font/poppins/Poppins-SemiBold.ttf);
 }
+
 @font-face {
   font-family: "poppins-light";
   src: url(/Font/poppins/Poppins-Light.ttf);
 }
+
 @font-face {
   font-family: "poppins-bold";
   src: url(/Font/poppins/Poppins-Bold.ttf);
@@ -77,7 +82,7 @@
   margin-top: 1.5rem;
 }
 
-.largePicture img{
+.largePicture img {
   width: auto;
   height: 515px;
 }
@@ -144,7 +149,7 @@
   font-family: "poppins-regular";
 }
 
-.what-color{
+.what-color {
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -154,11 +159,11 @@
   background-color: #816dfa;
 }
 
-.black{
+.black {
   background-color: black;
 }
 
-.gold{
+.gold {
   background-color: #b88e2f;
 }
 
@@ -179,6 +184,7 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  margin-bottom: 3rem;
 }
 
 .buttons button {
@@ -220,4 +226,44 @@
   font-family: "poppins-regular";
 }
 
+.socialMediaAndProductInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
+.productInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.productInfo p {
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.socialMedia p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.socialMedia a {
+  text-decoration: none;
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.socialMedia a:hover {
+  color: black;
+}
