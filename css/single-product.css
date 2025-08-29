@@ -267,3 +267,36 @@
 .socialMedia a:hover {
   color: black;
 }
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.descriptionTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.descriptionTitle h3 {
+  font-family: "poppins-medium";
+  font-weight: normal;
+  color: #9f9f9f;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paragraph p {
+  font-family: "poppins-regular";
+  color: #9f9f9f;
+  font-size: 1rem;
+}
+
