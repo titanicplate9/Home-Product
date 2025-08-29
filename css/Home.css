@@ -150,6 +150,7 @@
 
 .Inner-page-img1 {
   position: relative;
+  top: -0.2rem;
 }
 
 .textabsolute {
@@ -210,14 +211,17 @@
 }
 
 .widthCustomImg {
-  width: 7rem;
+  width: 9rem;
 }
 
+.Inner-page-img3 {
+  position: relative;
+}
 .Inner-page-img3 img {
-  width: 6rem;
+  width: 7.5rem;
   height: 30.4rem;
-  margin-bottom: 6rem;
-  margin-left: -5.1rem;
+  margin-bottom: 6.4rem;
+  margin-left: -7.5rem;
 }
 
 .products-section {
@@ -252,4 +256,35 @@
   justify-content: center;
   text-decoration: none;
   cursor: default;
+}
+
+.vector-radius {
+  position: absolute;
+  left: -2.5rem;
+  top: 17rem;
+}
+.vector-radius img {
+  position: absolute;
+  background-color: white;
+  width: 2.2rem;
+  height: 2.2rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Share-your-setup-with {
+  height: 40rem;
+  padding-top: 3rem;
+}
+
+.Share-your-setup-with-text {
+  text-align: center;
+}
+.Share-your-setup-with-text h3 {
+  color: #616161;
+}
+.Share-your-setup-with-text h1 {
+  color: #3a3a3a;
 }
