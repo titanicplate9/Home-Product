@@ -2,22 +2,27 @@
   font-family: "mont-bold";
   src: url(/Font/Montserrat/Montserrat-Bold.ttf);
 }
+
 @font-face {
   font-family: "poppins-medium";
   src: url(/Font/poppins/Poppins-Medium.ttf);
 }
+
 @font-face {
   font-family: "poppins-regular";
   src: url(/Font/poppins/Poppins-Regular.ttf);
 }
+
 @font-face {
   font-family: "poppins-semibold";
   src: url(/Font/poppins/Poppins-SemiBold.ttf);
 }
+
 @font-face {
   font-family: "poppins-light";
   src: url(/Font/poppins/Poppins-Light.ttf);
 }
+
 @font-face {
   font-family: "poppins-bold";
   src: url(/Font/poppins/Poppins-Bold.ttf);
@@ -65,7 +70,200 @@
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
+  padding: 1.5rem 0 3rem 6rem;
+  gap: 2rem;
 }
 
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
 
+.largePicture img {
+  width: auto;
+  height: 515px;
+}
+
+.content {
+  width: 33%;
+  padding-left: 6rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: "poppins-regular";
+}
+
+.title span {
+  font-family: "poppins-medium";
+  color: gray;
+}
+
+.rate {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.rate span {
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.paragraph p {
+  font-family: "poppins-regular";
+}
+
+.size,
+.color {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.size button {
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #f9f1e7;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-family: "poppins-regular";
+}
+
+.color button {
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  font-family: "poppins-regular";
+}
+
+.what-color {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.purple {
+  background-color: #816dfa;
+}
+
+.black {
+  background-color: black;
+}
+
+.gold {
+  background-color: #b88e2f;
+}
+
+.color span,
+.size span {
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.what-size,
+.what-size {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.buttons button {
+  border: 1px solid black;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.7rem;
+  font-family: "poppins-regular";
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.howMany {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.howMany button {
+  border: none;
+  width: 1.3rem;
+  height: 3rem;
+  font-family: "poppins-regular";
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.howMany span {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins-regular";
+}
+
+.socialMediaAndProductInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.productInfo p {
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.socialMedia p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.socialMedia a {
+  text-decoration: none;
+  font-family: "poppins-regular";
+  color: gray;
+}
+
+.socialMedia a:hover {
+  color: black;
+}
