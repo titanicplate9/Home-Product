@@ -1,6 +1,83 @@
+@font-face {
+  font-family: "mont-bold";
+  src: url(/Font/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "poppins-medium";
+  src: url(/Font/poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "poppins-regular";
+  src: url(/Font/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-semibold";
+  src: url(/Font/poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "poppins-light";
+  src: url(/Font/poppins/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "poppins-bold";
+  src: url(/Font/poppins/Poppins-Bold.ttf);
+}
+
+* {
+  font-family: "poppins-medium";
+  margin: 0;
+  padding: 0;
+  transition: all 1s;
+  box-sizing: border-box;
+}
+
 .marginRight1 {
   margin-right: 3.5rem;
   width: 3.5rem;
   margin-top: -0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.banner {
+  background-image: url(/img/banner-shop-background.png); /* مسیر تصویر پس‌زمینه */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8rem;
+}
+
+.title {
+  font-size: 2.9rem;
+  margin-bottom: 0.5rem;
+  font-family: "poppins-medium";
+}
+
+.links {
+  display: flex;
+  gap: 0.8rem;
+  font-family: "poppins-medium";
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.home--link {
+  color: black;
+}
+
+.home--link img {
+  width: 11%;
+}
+
+.shop--link {
+  color: gray;
+}
+
+.go-to-shop-text {
+  width: 24%;
 }
