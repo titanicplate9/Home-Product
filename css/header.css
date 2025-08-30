@@ -6,11 +6,15 @@
   font-family: "poppins-medium";
   src: url(/Font/poppins/Poppins-Medium.ttf);
 }
+
 * {
-  font-family: "mont-bold";
   margin: 0;
   padding: 0;
   transition: all 1s;
+}
+
+.font-bold {
+  font-family: "mont-bold" !important;
 }
 
 .inlineBlock {
