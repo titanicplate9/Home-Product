@@ -13,6 +13,12 @@
   transition: all 1s;
 }
 
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
 .font-bold {
   font-family: "mont-bold" !important;
 }
