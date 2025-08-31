@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/header.css" />
   <link rel="stylesheet" href="../css/single-product.css" />
+  <link rel="stylesheet" href="../css/products.css">
+  <link rel="stylesheet" href="../css/footer.css">
   <title>single-product</title>
 </head>
 
@@ -140,12 +142,12 @@
         </div>
       </div>
     </section>
-    <hr>
+    
     <section class="description">
       <div class="descriptionTitle">
-        <h3>Descriotion</h3>
-        <h3>Additional Information</h3>
-        <h3>Reviews[5]</h3>
+        <h3 onclick="changeFontDescription()" class="descriptionHeader" id="descriptionHeader">Description</h3>
+        <h3 onclick="changeFontAdditional()" class="additionalInformationHeader" id="additionalInformationHeader">Additional Information</h3>
+        <h3 onclick="changeFontReviews()" class="descriptionReviews" id="descriptionReviews">Reviews[5]</h3>
       </div>
 
       <div class="paragraph">
@@ -161,8 +163,175 @@
         </p>
       </div>
 
+      <div class="pictures">
+        <div class="firstPicture">
+          <img src="../img/first-sofa-information.png" alt="تصویر 1"/>
+        </div>
+        <div class="secondPicture">
+          <img src="../img/second-sofa-informatin.png" alt="تصویر 2"/>
+        </div>
+      </div>
+      </section>
+
+        <section class="suggest-section">
+      <div class="suggests">
+        <div class="suggestTitle">
+          <h3>Related Products</h3>
+        </div>
+      </div>
+
+      <div class="ticles-containerar">
+            <!-- چهار کارت محصول -->
+            <article class="product-card">
+                <a href="">
+                    <div class="img-wrapper">
+                        <img src="/img/Syltherine.png" alt="تصویر محصول ۱" />
+                    </div>
+                    <div class="overlay">
+                        <button class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
+                            <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
+                            <i class="overlay-icon"><img src="/img/heart.png" alt="" /><span>Like</span></i>
+                        </div>
+                    </div>
+                    <div class="content-wrapper">
+                        <h2 class="product-title">Syltheria</h2>
+                        <span class="product-explain">stylish cafe chair</span>
+                    </div>
+                    <div class="price-oldprice">
+                        <span class="product-price" aria-label="قیمت محصول">Rp 2.500.000</span>
+                        <span class="old-price"><del>Rp 3.500.000</del></span>
+                    </div>
+                    <div class="percent-off">
+                        <span class="percent">- 30%</span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- سه کارت دیگر مشابه بالا -->
+            <article class="product-card">
+                <a href="">
+                    <div class="img-wrapper">
+                        <img src="/img/levlosa.png" alt="تصویر محصول ۲" />
+                    </div>
+                    <div class="overlay">
+                        <button class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
+                            <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
+                            <i class="overlay-icon"><img src="/img/heart.png" alt="" /><span>Like</span></i>
+                        </div>
+                    </div>
+                    <div class="content-wrapper">
+                        <h2 class="product-title">Leviosa</h2>
+                        <span class="product-explain">stylish cafe chair</span>
+                    </div>
+                    <div class="price-oldprice">
+                        <span class="product-price" aria-label="قیمت محصول">Rp 2.500.000</span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- کارت ۳ -->
+            <article class="product-card">
+                <a href="">
+                    <div class="img-wrapper">
+                        <img class="asgard-img" src="../img/lolito.png" alt="تصویر محصول ۳" />
+                    </div>
+                    <div class="overlay">
+                        <button class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
+                            <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
+                            <i class="overlay-icon"><img src="/img/heart.png" alt="" /><span>Like</span></i>
+                        </div>
+                    </div>
+                    <div class="content-wrapper">
+                        <h2 class="product-title">Asgard sofa</h2>
+                        <span class="product-explain">luxury small sofa</span>
+                    </div>
+                    <div class="price-oldprice">
+                        <span class="product-price" aria-label="قیمت محصول">Rp 250.000.000</span>
+                    </div>
+                    <div class="percent-off">
+                        <span class="percent">- 50%</span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- کارت ۴ -->
+            <article class="product-card">
+                <a href="">
+                    <div class="img-wrapper">
+                        <img src="/img/respira.png" alt="تصویر محصول ۴" />
+                    </div>
+                    <div class="overlay">
+                        <button class="add-to-cart">Add to cart</button>
+                        <div class="icons">
+                            <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
+                            <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
+                            <i class="overlay-icon"><img src="/img/heart.png" alt="" /><span>Like</span></i>
+                        </div>
+                    </div>
+                    <div class="content-wrapper">
+                        <h2 class="product-title">Respira</h2>
+                        <span class="product-explain">Outdoor bar table and stool</span>
+                    </div>
+                    <div class="price-oldprice">
+                        <span class="product-price" aria-label="قیمت محصول">Rp 500.000</span>
+                    </div>
+                </a>
+                <div class="percent-off new">
+                    <span class="percent">New</span>
+                </div>
+            </article>
+        </div>
+
+        <a href="#" class="show-more-a">
+            <button class="show-more-shop">
+                Show More
+            </button>
+        </a>
     </section>
+</main>
   </main>
+
+  <footer>
+    <div class="footer-title">
+      <h2>Kachinava & titanic-plate9</h2>
+      <p>400 University Drive Suite 200 Coral Gables,<br>FL 33134 USA</p>
+    </div>
+    <div class="footer-links">
+      <h4>Links</h4>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-links">
+      <h4>Help</h4>
+      <nav>
+        <ul>
+          <li><a href="">Payment Options</a></li>
+          <li><a href="">Returns</a></li>
+          <li><a href="">Privacy policies</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="give-email">
+      <h4>Newsletter</h4>
+      <input type="email" placeholder="Enter Your Email address" />
+      <button>SUBSCRIBE</button>
+    </div>
+    <div class="copy-right">
+      <span>2025 Kachinava & titanic-plate9 &copy; All rights reverved</span>
+    </div>
+  </footer>
 
   <script src="../JavaScript/single-product.js"></script>
 </body>

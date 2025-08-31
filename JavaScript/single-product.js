@@ -22,3 +22,34 @@ function minus1() {
        alert("You can't add less than 1 item to the cart");
     }
 }
+
+const descriptionHeader = document.getElementById("descriptionHeader");
+const additionalInformationHeader = document.getElementById("additionalInformationHeader");
+const descriptionReviews = document.getElementById("descriptionReviews");
+
+function changeFontDescription() {
+    descriptionHeader.style.fontFamily = "poppins-medium";
+    descriptionHeader.style.color = "black";
+    additionalInformationHeader.style.fontFamily = "poppins-regular";
+    additionalInformationHeader.style.color = "#d9d9d9";
+    descriptionReviews.style.fontFamily = "poppins-regular";
+    descriptionReviews.style.color = "#d9d9d9";
+}
+
+function changeFontAdditional() {
+    additionalInformationHeader.style.fontFamily = "poppins-medium";
+    additionalInformationHeader.style.color = "black";
+    descriptionReviews.style.fontFamily = "poppins-regular";
+    descriptionReviews.style.color = "#d9d9d9";
+    descriptionHeader.style.fontFamily = "poppins-regular";
+    descriptionHeader.style.color = "#d9d9d9";
+}
+
+function changeFontReviews() {
+    descriptionReviews.style.fontFamily = "poppins-medium";
+    descriptionReviews.style.color = "black";
+    additionalInformationHeader.style.fontFamily = "poppins-regular";
+    additionalInformationHeader.style.color = "#d9d9d9";
+    descriptionHeader.style.fontFamily = "poppins-regular";
+    descriptionHeader.style.color = "#d9d9d9";
+}
