@@ -355,3 +355,8 @@
   margin-bottom: 1.4rem;
   width: 18rem;
 }
+
+.boxShodow2 {
+  box-shadow: 0px 0px 5px 0px black;
+  border-radius: 10px;
+}
