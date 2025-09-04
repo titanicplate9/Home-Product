@@ -125,6 +125,10 @@
   color: #555;
 }
 
+.right-group .label2{
+  width: 35%;
+}
+
 .input1 {
   width: 35%;
   height: 2.5rem;
