@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/shop.css" />
     <link rel="stylesheet" href="/css/products.css">
+    <link rel="stylesheet" href="../css/cart sidebar.css">
     <link rel="stylesheet" href="/css/footer.css">
     <title>shop</title>
   </head>
@@ -46,7 +47,7 @@
                 <a href="#">
                     <img src="/img/heartHeader.svg">
                 </a>
-                <a href="#">
+                <a onclick="cartDisplay()" href="#">
                     <img src="/img/shopingHeader.svg">
                 </a>
             </div>
@@ -98,7 +99,7 @@
               <img src="/img/Syltherine.png" alt="تصویر محصول ۱" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="syltherine(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -106,11 +107,11 @@
               </div>
             </div>
             <div class="content-wrapper">
-              <h2 class="product-title">Syltheria</h2>
+              <h2 class="product-title">syltherine</h2>
               <span class="product-explain">stylish cafe chair</span>
             </div>
             <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp 2.500.000</span>
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice4">2.500.000</span></span>
               <span class="old-price"><del>Rp 3.500.000</del></span>
             </div>
             <div class="percent-off">
@@ -126,7 +127,7 @@
               <img src="/img/levlosa.png" alt="تصویر محصول ۲" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="leviosa(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -138,7 +139,7 @@
               <span class="product-explain">stylish cafe chair</span>
             </div>
             <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp 2.500.000</span>
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice3">2.500.000</span></span>
             </div>
           </a>
         </article>
@@ -154,7 +155,7 @@
                 />
               </div>
               <div class="overlay">
-                <button class="add-to-cart">Add to cart</button>
+                <button onclick="asgardSofa(event)" type="button" class="add-to-cart">Add to cart</button>
                 <div class="icons">
                   <i class="overlay-icon"
                     ><img src="/img/share.png" alt="" /><span>Share</span></i
@@ -175,7 +176,7 @@
               </div>
               <div class="price-oldprice">
                 <span class="product-price" aria-label="قیمت محصول"
-                  >Rp 250.000.000</span
+                  >Rp <span id="calcPrice">250.000.000</span></span
                 >
               </div>
               <div class="percent-off">
@@ -191,7 +192,7 @@
               <img src="/img/respira.png" alt="تصویر محصول ۴" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="respira(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -203,7 +204,7 @@
               <span class="product-explain">Outdoor bar table and stool</span>
             </div>
             <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp 500.000</span>
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice5"> 500.000 </span></span>
             </div>
           </a>
           <div class="percent-off new">
@@ -219,7 +220,7 @@
               <img src="/img/Syltherine.png" alt="تصویر محصول ۱" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="syltherine(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -227,11 +228,11 @@
               </div>
             </div>
             <div class="content-wrapper">
-              <h2 class="product-title">Syltheria</h2>
+              <h2 class="product-title">syltherine</h2>
               <span class="product-explain">stylish cafe chair</span>
             </div>
             <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp 2.500.000</span>
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice4">2.500.000</span></span>
               <span class="old-price"><del>Rp 3.500.000</del></span>
             </div>
             <div class="percent-off">
@@ -247,7 +248,7 @@
               <img src="/img/levlosa.png" alt="تصویر محصول ۲" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="leviosa(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -271,7 +272,7 @@
               <img class="asgard-img" src="/img/asgard sofa smaller.jpg" alt="تصویر محصول ۳" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="asgardSofa(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -298,7 +299,7 @@
               <img src="/img/respira.png" alt="تصویر محصول ۴" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="respira(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -310,7 +311,7 @@
               <span class="product-explain">Outdoor bar table and stool</span>
             </div>
             <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp 500.000</span>
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice5"> 500.000 </span></span>
             </div>
           </a>
           <div class="percent-off new">
@@ -326,7 +327,7 @@
               <img src="/img/Syltherine.png" alt="تصویر محصول ۱" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="syltherine(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -334,11 +335,11 @@
               </div>
             </div>
             <div class="content-wrapper">
-              <h2 class="product-title">Syltheria</h2>
+              <h2 class="product-title">syltherine</h2>
               <span class="product-explain">stylish cafe chair</span>
             </div>
             <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp 2.500.000</span>
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice4">2.500.000</span></span>
               <span class="old-price"><del>Rp 3.500.000</del></span>
             </div>
             <div class="percent-off">
@@ -354,7 +355,7 @@
               <img src="/img/levlosa.png" alt="تصویر محصول ۲" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="leviosa(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -366,7 +367,7 @@
               <span class="product-explain">stylish cafe chair</span>
             </div>
             <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp 2.500.000</span>
+              <span class="product-price" aria-label="قیمت محصول">Rp <span>2.500.000</span></span>
             </div>
           </a>
         </article>
@@ -378,7 +379,7 @@
               <img class="asgard-img" src="/img/asgard sofa smaller.jpg" alt="تصویر محصول ۳" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="asgardSofa(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -405,7 +406,7 @@
               <img src="/img/respira.png" alt="تصویر محصول ۴" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="respira(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -417,7 +418,7 @@
               <span class="product-explain">Outdoor bar table and stool</span>
             </div>
             <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp 500.000</span>
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice5"> 500.000 </span></span>
             </div>
           </a>
           <div class="percent-off new">
@@ -433,7 +434,7 @@
               <img src="/img/Syltherine.png" alt="تصویر محصول ۱" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="syltherine(event)" type="button"class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -441,11 +442,11 @@
               </div>
             </div>
             <div class="content-wrapper">
-              <h2 class="product-title">Syltheria</h2>
+              <h2 class="product-title">syltherine</h2>
               <span class="product-explain">stylish cafe chair</span>
             </div>
             <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp 2.500.000</span>
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice4">2.500.000</span></span>
               <span class="old-price"><del>Rp 3.500.000</del></span>
             </div>
             <div class="percent-off">
@@ -461,7 +462,7 @@
               <img src="/img/levlosa.png" alt="تصویر محصول ۲" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="leviosa(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -486,7 +487,7 @@
               <img class="asgard-img" src="/img/asgard sofa smaller.jpg" alt="تصویر محصول ۳" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="asgardSofa(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -513,7 +514,7 @@
               <img src="/img/respira.png" alt="تصویر محصول ۴" />
             </div>
             <div class="overlay">
-              <button class="add-to-cart">Add to cart</button>
+              <button onclick="respira(event)" type="buttonclass="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -525,7 +526,7 @@
               <span class="product-explain">Outdoor bar table and stool</span>
             </div>
             <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp 500.000</span>
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice5">500.000 </span></span>
             </div>
           </a>
           <div class="percent-off new">
@@ -570,6 +571,51 @@
         </div>
       </div>
     </section>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+      <div class="cart-sidebar-title">
+
+        <h4> Shopping Cart </h4>
+
+        <div class="icon">
+          <img src="../img/cart-sidebar-icon.png" alt="">
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="cart-sidebar-list">
+
+        <ul class="item-list" id="item-list">
+
+          <li class="nothing" id="nothing"> nothing in your cart </li>
+
+        </ul>
+
+      </div>
+
+      <div class="total-price">
+
+        <h4>Subtotal</h4>
+
+        <span class="price"> </span>
+
+      </div>
+
+      <div class="hr2"></div>
+
+      <div class="cart-sidebar-btns">
+
+        <button> Cart </button>
+        <button> Checkout </button>
+        <button> Comparison </button>
+
+      </div>
+
+    </div>
+
+    <div onclick="exitCart()" id="backdrop" class="backdrop"></div>
+
   </main>
   <footer>
     <div class="footer-title">
@@ -606,6 +652,8 @@
       <span>2025 Kachinava & titanic-plate9 &copy; All rights reverved</span>
     </div>
   </footer>
+  <script src="../JavaScript/single-product.js"></script>
+  <script src="../JavaScript/cart.js"></script>
 </body>
 
 </html>
