@@ -83,7 +83,7 @@ a {
 
 .go-to-shop {
   margin-left: 7rem;
-  height: 30rem;
+  height: 25rem;
   display: flex;
 }
 
@@ -111,6 +111,7 @@ a {
 }
 .go-to-shop-picture1 img {
   width: 100%;
+  border-radius: 15px;
 }
 
 .go-to-shop-picture2 {
@@ -119,7 +120,7 @@ a {
   margin-left: 3rem;
 }
 .go-to-shop-picture2 img {
-  border-radius: 10px;
+  border-radius: 15px;
   width: 100%;
 }
 
@@ -174,22 +175,38 @@ a {
 }
 .text-size1 h3 {
   margin-top: 0.2rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
+.shodow1 {
+  box-shadow: 0px 0px 1px 0px black;
+}
+
+.star-rating {
+  display: flex;
+  width: 6rem;
+}
 .star-rating p {
-  margin-top: 0.3rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   display: flex;
   margin-right: 0.5rem;
 }
-.star-rating {
-  display: flex;
-  width: 2rem;
+
+.Review {
+  color: #9f9f9f;
+  margin-left: 2.4rem;
+  font-size: 0.8rem;
+  font-weight: 100;
+  border-left: 2px solid #9f9f9f;
+  padding-left: 0.5rem;
 }
 
-.size-img1 {
-  margin-top: 0.2rem;
+.jus-ali-center {
+  align-items: center;
+}
+
+.margin-top3 {
+  margin-top: 0.3rem;
 }
