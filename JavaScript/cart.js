@@ -50,16 +50,16 @@ function asgardSofa(event) {
     newOrder.appendChild(exitBTN)
     exitBTN.appendChild(exitImage)
 
-    exitBTN.addEventListener("click" , function name(event) {
+    if (nothing) {
+        nothing.style.display = "none";
+    }
+     exitBTN.addEventListener("click" , function name(event) {
         event.preventDefault();
         newOrder.remove();
             if (itemList.children.length == 0 || itemList.children.length === 1) {
-        nothing.style.display = "flex";
-    }
-    })
-    if (nothing) {
-    nothing.style.display = "none";
+    nothing.style.display = "flex";
 }
+    })
 }
 
 function lolito(event) {
@@ -74,7 +74,7 @@ function lolito(event) {
     const innerDivision2 = document.createElement("div")
     innerDivision2.className = "price"
     const productName = document.createElement("h4")
-    productName.innerHTML = "Asgard sofa"
+    productName.innerHTML = "Lolito"
     const productNumber = document.createElement("span")
     const quantity = number?.value ?? number?.textContent ?? 1;
     const unitPrice = price.value || price.textContent;
@@ -121,7 +121,7 @@ function leviosa(event) {
     const innerDivision2 = document.createElement("div")
     innerDivision2.className = "price"
     const productName = document.createElement("h4")
-    productName.innerHTML = "Asgard sofa"
+    productName.innerHTML = "Leviosa"
     const productNumber = document.createElement("span")
     const quantity = number?.value ?? number?.textContent ?? 1;
     const unitPrice = price.value || price.textContent;
@@ -144,15 +144,15 @@ function leviosa(event) {
     newOrder.appendChild(exitBTN)
     exitBTN.appendChild(exitImage)
 
-    if (itemList.children.length == 0 || itemList.children.length === 1) {
-    nothing.style.display = "flex";
-}
+    if (nothing) {
+        nothing.style.display = "none";
+    }
      exitBTN.addEventListener("click" , function name(event) {
         event.preventDefault();
         newOrder.remove();
-                if (nothing) {
-        nothing.style.display = "none";
-    }
+            if (itemList.children.length == 0 || itemList.children.length === 1) {
+    nothing.style.display = "flex";
+}
     })
 }
 
@@ -168,7 +168,7 @@ function syltherine(event) {
     const innerDivision2 = document.createElement("div")
     innerDivision2.className = "price"
     const productName = document.createElement("h4")
-    productName.innerHTML = "Asgard sofa"
+    productName.innerHTML = "Syltherine"
     const productNumber = document.createElement("span")
     const quantity = number?.value ?? number?.textContent ?? 1;
     const unitPrice = price.value || price.textContent;
@@ -214,7 +214,7 @@ function respira(event) {
     const innerDivision2 = document.createElement("div")
     innerDivision2.className = "price"
     const productName = document.createElement("h4")
-    productName.innerHTML = "Asgard sofa"
+    productName.innerHTML = "Respira"
     const productNumber = document.createElement("span")
     const quantity = number?.value ?? number?.textContent ?? 1;
     const unitPrice = price.value || price.textContent;
@@ -239,10 +239,10 @@ function respira(event) {
     if (nothing) {
         nothing.style.display = "none";
     }
-    exitBTN.addEventListener("click" , function name(event) {
+     exitBTN.addEventListener("click" , function name(event) {
         event.preventDefault();
         newOrder.remove();
-        if (itemList.children.length == 0 || itemList.children.length === 1) {
+            if (itemList.children.length == 0 || itemList.children.length === 1) {
     nothing.style.display = "flex";
 }
     })

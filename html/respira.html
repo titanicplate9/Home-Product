@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="../css/products.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/cart sidebar.css">
-  <title>Asgard Sofa</title>
+  <title>Respira</title>
 </head>
 
 <body>
@@ -61,12 +61,12 @@
       </div>
       <div class="separator"></div>
       <div class="products-name">
-        <span>Asgard sofa</span>
+        <span>Respira</span>
       </div>
     </section>
     <section class="container">
       <!-- دیویژن سمت چپ با 4 تصویر -->
-      <div class="box">
+      <!-- <div class="box">
         <div class="asgard-sofa">
           <img class="image1" src="/img/asgard sofa 1.png" alt="تصویر 1" />
         </div>
@@ -79,18 +79,18 @@
         <div class="asgard-sofa">
           <img src="/img/asgard sofa 4.png" alt="تصویر 4" />
         </div>
-      </div>
+      </div> -->
 
       <!-- دیویژن وسط با 1 تصویر -->
       <div class="box largePicture">
-        <img src="/img/asgard sofa.png" alt="تصویر وسط" />
+        <img src="../img/respira.png" alt="تصویر وسط" />
       </div>
 
       <!-- دیویژن سمت راست (می‌توانید محتوا اضافه کنید) -->
       <div class="box content">
         <div class="title">
-          <h2>Asgard sofa</h2>
-          <span>Rs. <span id="calcPrice">250,000.00</span></span>
+          <h2>Respira</h2>
+          <span>Rs. <span id="calcPrice5">500.000</span></span>
         </div>
         <div class="rate">
           <img src="/img/star.png" alt="" />
@@ -128,7 +128,7 @@
             <button class="plus" id="plus" onclick="plus1()">+</button>
           </div>
           <form action="">
-          <button onclick="asgardSofa(event)" >
+          <button onclick="respira(event)" >
             Add To Cart
           </button>
           <button>+ Compare</button>
@@ -142,11 +142,11 @@
           </div>
           <div class="productInfo">
             <p> Category </p>
-            <p> :&nbsp; &nbsp; Sofas</p>
+            <p> :&nbsp; &nbsp; Sofa</p>
           </div>
           <div class="productInfo">
             <p> Tags </p>
-            <p> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;:&nbsp; &nbsp; Sofa, Chair, Home, Shop</p>
+            <p> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;:&nbsp; &nbsp; sofa, Chair, Home, Shop</p>
           </div>
           <div class="socialMedia">
             <p>Share</p>
@@ -201,10 +201,10 @@
         <article class="product-card">
           <a href="">
             <div class="img-wrapper">
-              <img src="/img/Syltherine.png" alt="تصویر محصول ۱" />
+              <img class="asgard-img" src="/img/asgard sofa smaller.jpg" alt="تصویر محصول ۳" />
             </div>
             <div class="overlay">
-              <button onclick="syltherine(event)" type="button" class="add-to-cart">Add to cart</button>
+              <button onclick="asgardSofa(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -212,7 +212,34 @@
               </div>
             </div>
             <div class="content-wrapper">
-              <h2 class="product-title">Syltherine</h2>
+              <h2 class="product-title">Asgard sofa</h2>
+              <span class="product-explain">luxury small sofa</span>
+            </div>
+            <div class="price-oldprice">
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice">250.000.000</span></span>
+            </div>
+            <div class="percent-off">
+              <span class="percent">- 50%</span>
+            </div>
+          </a>
+        </article>
+
+        <!-- سه کارت دیگر مشابه بالا -->
+        <article class="product-card">
+          <a href="">
+            <div class="img-wrapper">
+              <img src="/img/Syltherine.png" alt="تصویر محصول ۱" />
+            </div>
+            <div class="overlay">
+              <button onclick="syltherine(event)" type="button"class="add-to-cart">Add to cart</button>
+              <div class="icons">
+                <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
+                <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
+                <i class="overlay-icon"><img src="/img/heart.png" alt="" /><span>Like</span></i>
+              </div>
+            </div>
+            <div class="content-wrapper">
+              <h2 class="product-title">syltherine</h2>
               <span class="product-explain">stylish cafe chair</span>
             </div>
             <div class="price-oldprice">
@@ -225,14 +252,14 @@
           </a>
         </article>
 
-        <!-- سه کارت دیگر مشابه بالا -->
+        <!-- کارت ۳ -->
         <article class="product-card">
           <a href="">
             <div class="img-wrapper">
               <img src="/img/levlosa.png" alt="تصویر محصول ۲" />
             </div>
             <div class="overlay">
-              <button type="button" onclick="leviosa(event)" class="add-to-cart">Add to cart</button>
+              <button onclick="leviosa(event)" type="button" class="add-to-cart">Add to cart</button>
               <div class="icons">
                 <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
                 <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
@@ -249,7 +276,7 @@
           </a>
         </article>
 
-        <!-- کارت ۳ -->
+        <!-- کارت ۴ -->
         <article class="product-card">
           <a href="">
             <div class="img-wrapper">
@@ -274,33 +301,6 @@
               <span class="percent">- 50%</span>
             </div>
           </a>
-        </article>
-
-        <!-- کارت ۴ -->
-        <article class="product-card">
-          <a href="">
-            <div class="img-wrapper">
-              <img src="/img/respira.png" alt="تصویر محصول ۴" />
-            </div>
-            <div class="overlay">
-              <button onclick="respira(event)" type="button" class="add-to-cart">Add to cart</button>
-              <div class="icons">
-                <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
-                <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
-                <i class="overlay-icon"><img src="/img/heart.png" alt="" /><span>Like</span></i>
-              </div>
-            </div>
-            <div class="content-wrapper">
-              <h2 class="product-title">Respira</h2>
-              <span class="product-explain">Outdoor bar table and stool</span>
-            </div>
-            <div class="price-oldprice">
-              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice5"> 500.000 </span></span>
-            </div>
-          </a>
-          <div class="percent-off new">
-            <span class="percent">New</span>
-          </div>
         </article>
       </div>
 
