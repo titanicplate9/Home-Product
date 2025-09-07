@@ -90,10 +90,11 @@ section {
 .largePicture img {
   width: auto;
   height: 515px;
+  border-radius: 0.5rem;
 }
 
 .content {
-  width: 33%;
+  width: 38%;
   padding-left: 6rem;
 }
 
@@ -303,11 +304,22 @@ section {
 .paragraph {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 2rem;
 }
 
 .paragraph p {
+  font-family: "poppins-regular";
+  color: #333;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.description .paragraph {
+  align-items: center;
+}
+
+.description .paragraph p{
   font-family: "poppins-regular";
   color: #9f9f9f;
   font-size: 1rem;
@@ -338,7 +350,6 @@ section {
 .suggestTitle h3 {
   font-family: "poppins-regular";
   font-weight: normal;
-  cursor: pointer;
   font-size: 2.5rem;
 }
 
@@ -372,4 +383,7 @@ section {
   margin-bottom: 4rem;
 }
 
-
+.buttons form {
+  display: flex;
+  gap: .5rem;
+}
