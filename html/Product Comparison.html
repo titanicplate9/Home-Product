@@ -10,7 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/Product Comparison.css">
-    <script src="../JavaScript/cart.js"></script>
+    <link rel="stylesheet" href="../css/cart sidebar.css">
+    <script src="../JavaScript/cart.js" defer></script>
 </head>
 
 <body>
@@ -86,7 +87,7 @@
 
                 <img src="/img/Group 156.png" class="shodow1">
                 <h2>Asgaard Sofa</h2>
-                <h3>Rs. 250,000.00</h3>
+                <h3>Rs. <span id="calcPrice">250,000.00</span></h3>
                 <div class="displayFlex jus-ali-center margin-top3">
                     <div class="star-rating">
                         <p>4.7</p>
@@ -107,7 +108,7 @@
 
                 <img src="/img/Outdoor sofa set 1.png" class="background-color1 padding1 shodow1">
                 <h2>Outdoor Sofa Set</h2>
-                <h3>Rs. 224,000.00</h3>
+                <h3>Rs. <span id="calcPrice2">224,000.00</span></h3>
                 <div class="displayFlex jus-ali-center margin-top3">
                     <div class="star-rating">
                         <p>4.2</p>
@@ -212,7 +213,7 @@
                     <!-- add to cart -->
 
                     <li>
-                        <a href="#"></a>
+                        <button onclick="asgardSofa(event)">Add To Cart</button>
                     </li>
                 </ul>
             </div>
@@ -250,7 +251,7 @@
                     <!-- add to cart -->
 
                     <li>
-                        
+                        <button onclick="OutDoorSofa(event)">Add To Cart</button>
                     </li>
                 </ul>
             </div>
@@ -259,7 +260,49 @@
 
         </div>
 
+        <div id="cart-sidebar" class="cart-sidebar-exception">
+            <div class="cart-sidebar-title">
 
+                <h4> Shopping Cart </h4>
+
+                <div class="icon">
+                    <img src="../img/cart-sidebar-icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="hr"></div>
+
+            <div class="cart-sidebar-list">
+
+                <ul class="item-list" id="item-list">
+
+                    <li class="nothing" id="nothing"> nothing in your cart </li>
+
+                </ul>
+
+            </div>
+
+            <div class="total-price">
+
+                <h4>Subtotal</h4>
+
+                <span class="price"> </span>
+
+            </div>
+
+            <div class="hr2"></div>
+
+            <div class="cart-sidebar-btns">
+
+                <button> Cart </button>
+                <button> Checkout </button>
+                <button> Comparison </button>
+
+            </div>
+
+        </div>
+
+        <div onclick="exitCart()" id="backdrop" class="backdrop"></div>
 
 
 
