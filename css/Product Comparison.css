@@ -228,7 +228,7 @@ a {
 }
 
 .div-list-container {
-  height: 130rem;
+  height: 150rem;
   display: flex;
   margin: 0 3rem 0 3rem;
   border-top: 1px solid #e8e8e8;
@@ -281,10 +281,19 @@ a {
 .margin-customers1 {
   margin-top: 1.35rem;
 }
+.margin-customers2 {
+  margin-top: 2.9rem;
+}
 
 .margin-top-custom1 {
-  margin-top: 1.55rem;
+  margin-top: 1.6rem;
 }
 .margin-top-custom2 {
-  margin-top: 2rem;
+  margin-top: 4.35rem;
+}
+.margin-top-custom3 {
+  margin-top: 4.4rem;
+}
+.margin-top-custom4 {
+  margin-top: 7.65rem;
 }
