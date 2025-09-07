@@ -210,3 +210,81 @@ a {
 .margin-top3 {
   margin-top: 0.3rem;
 }
+
+.div-list {
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  border-right: 1px solid #e8e8e8;
+}
+.div-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.div-list li {
+  font-weight: 100 !important;
+}
+
+.div-list-container {
+  height: 130rem;
+  display: flex;
+  margin: 0 3rem 0 3rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+.margin-top2-1 {
+  margin-top: 2rem;
+}
+.margin-top2-2 {
+  margin-top: 5.4rem;
+}
+.margin-top2-3 {
+  margin-top: 4.8rem;
+}
+.margin-bottom1-1 {
+  margin-bottom: 0.72rem;
+}
+
+.margin-top-ulSpace1 {
+  margin-top: 3rem;
+}
+.margin-top-ulSpace2 {
+  margin-top: 7.25rem;
+}
+.margin-top-ulSpace2-1 {
+  margin-top: 7.6rem;
+}
+.margin-top-ulSpace2-2 {
+  margin-top: 7.2rem;
+}
+
+.margin-top-ulSpace3 {
+  margin-top: 7.05rem;
+}
+.margin-top-ulSpace3-1 {
+  margin-top: 7.6rem;
+}
+.margin-top-ulSpace3-2 {
+  margin-top: 7.2rem;
+}
+
+.font-size1 {
+  font-size: 1.5rem;
+}
+
+.dis-block {
+  display: flex;
+}
+
+.margin-customers1 {
+  margin-top: 1.35rem;
+}
+
+.margin-top-custom1 {
+  margin-top: 1.55rem;
+}
+.margin-top-custom2 {
+  margin-top: 2rem;
+}
