@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/single-product.css" />
+  <link rel="stylesheet" href="../css/products.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/cart sidebar.css">
+  <title>Leviosa</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="displayFlex header-logo">
+        <img src="/img/header-logo.png" alt="logo" />
+        <h3 class="fontSize2 font-bold">Furniro</h3>
+      </div>
+
+      <nav>
+        <ul class="displayFlex ulHeader fontpaping">
+          <a href="#">
+            <li>Home</li>
+          </a>
+          <a href="#">
+            <li>Shop</li>
+          </a>
+          <a href="#">
+            <li>About</li>
+          </a>
+          <a href="#">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+
+      <div class="iconHeader">
+        <a href="#">
+          <img src="/img/personHeader.svg" class="iconSize">
+        </a>
+        <a href="#">
+          <img src="/img/searchHeader.svg">
+        </a>
+        <a href="#">
+          <img src="/img/heartHeader.svg">
+        </a>
+        <a onclick="cartDisplay()" class="cart" href="#">
+          <img src="/img/shopingHeader.svg">
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="filter-bar">
+      <div class="links">
+        <a class="home--link" href="#">Home &nbsp; <img src="/img/Vector-right.png" alt="" /></a>
+        <a class="shop--link" href="#">Shop &nbsp; <img src="/img/Vector-right.png" alt="" /></a>
+      </div>
+      <div class="separator"></div>
+      <div class="products-name">
+        <span>Leviosa</span>
+      </div>
+    </section>
+    <section class="container">
+      <!-- دیویژن سمت چپ با 4 تصویر -->
+      <!-- <div class="box">
+        <div class="asgard-sofa">
+          <img class="image1" src="/img/asgard sofa 1.png" alt="تصویر 1" />
+        </div>
+        <div class="asgard-sofa">
+          <img src="/img/asgard sofa 2.png" alt="تصویر 2" />
+        </div>
+        <div class="asgard-sofa">
+          <img src="/img/asgard sofa 3.png" alt="تصویر 3" />
+        </div>
+        <div class="asgard-sofa">
+          <img src="/img/asgard sofa 4.png" alt="تصویر 4" />
+        </div>
+      </div> -->
+
+      <!-- دیویژن وسط با 1 تصویر -->
+      <div class="box largePicture">
+        <img src="../img/levlosa.png" alt="تصویر وسط" />
+      </div>
+
+      <!-- دیویژن سمت راست (می‌توانید محتوا اضافه کنید) -->
+      <div class="box content">
+        <div class="title">
+          <h2>Leviosa</h2>
+          <span>Rs. <span id="calcPrice3">2.500.000</span></span>
+        </div>
+        <div class="rate">
+          <img src="/img/star.png" alt="" />
+          <hr />
+          <span>5 Customer Review</span>
+        </div>
+        <div class="paragraph">
+          <p>
+            Setting the bar as one of the loudest speakers in its class, the
+            Kilburn is a compact, stout-hearted hero with a well-balanced
+            audio which boasts a clear midrange and extended highs for a
+            sound.
+          </p>
+        </div>
+        <div class="size">
+          <span>Size</span>
+          <div class="what-size">
+            <button>L</button>
+            <button>XL</button>
+            <button>XS</button>
+          </div>
+        </div>
+        <div class="color">
+          <span>Color</span>
+          <div class="what-color">
+            <button class="purple"></button>
+            <button class="black"></button>
+            <button class="gold"></button>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="howMany" id="howMany">
+            <button class="minus" id="minus" onclick="minus1()">-</button>
+            <span id="number">1</span>
+            <button class="plus" id="plus" onclick="plus1()">+</button>
+          </div>
+          <form action="">
+          <button onclick="leviosa(event)" >
+            Add To Cart
+          </button>
+          <button>+ Compare</button>
+          </form>
+        </div>
+        <hr>
+        <div class="socialMediaAndProductInfo">
+          <div class="productInfo">
+            <p> SKU </p>
+            <p>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; :&nbsp; &nbsp; SS001</p>
+          </div>
+          <div class="productInfo">
+            <p> Category </p>
+            <p> :&nbsp; &nbsp; Chair</p>
+          </div>
+          <div class="productInfo">
+            <p> Tags </p>
+            <p> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;:&nbsp; &nbsp; Table, Chair, Home, Shop</p>
+          </div>
+          <div class="socialMedia">
+            <p>Share</p>
+            <p> &nbsp; &nbsp;&nbsp; &nbsp; :&nbsp; &nbsp; <a href="#"><img src="../img/facebook.png" alt=""></a> <a
+                href="#"><img src="../img/linkdin.png" alt=""></a> <a href="#"><img src="../img/twitter.png" alt=""></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="description">
+      <div class="descriptionTitle">
+        <h3 onclick="changeFontDescription()" class="descriptionHeader" id="descriptionHeader">Description</h3>
+        <h3 onclick="changeFontAdditional()" class="additionalInformationHeader" id="additionalInformationHeader">
+          Additional Information</h3>
+        <h3 onclick="changeFontReviews()" class="descriptionReviews" id="descriptionReviews">Reviews[5]</h3>
+      </div>
+
+      <div class="paragraph">
+        <p>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the
+          unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+
+        <p>
+          Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar
+          as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced
+          audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The
+          analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced
+          leather strap enables easy and stylish travel.
+        </p>
+      </div>
+
+      <div class="pictures">
+        <div class="firstPicture">
+          <img src="../img/first-sofa-information.png" alt="تصویر 1" />
+        </div>
+        <div class="secondPicture">
+          <img src="../img/second-sofa-informatin.png" alt="تصویر 2" />
+        </div>
+      </div>
+    </section>
+
+    <section class="suggest-section">
+      <div class="suggests">
+        <div class="suggestTitle">
+          <h3>Related Products</h3>
+        </div>
+      </div>
+
+      <div class="ticles-containerar">
+        <!-- چهار کارت محصول -->
+        <article class="product-card">
+          <a href="">
+            <div class="img-wrapper">
+              <img class="asgard-img" src="/img/asgard sofa smaller.jpg" alt="تصویر محصول ۳" />
+            </div>
+            <div class="overlay">
+              <button onclick="asgardSofa(event)" type="button" class="add-to-cart">Add to cart</button>
+              <div class="icons">
+                <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
+                <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
+                <i class="overlay-icon"><img src="/img/heart.png" alt="" /><span>Like</span></i>
+              </div>
+            </div>
+            <div class="content-wrapper">
+              <h2 class="product-title">Asgard sofa</h2>
+              <span class="product-explain">luxury small sofa</span>
+            </div>
+            <div class="price-oldprice">
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice">250.000.000</span></span>
+            </div>
+            <div class="percent-off">
+              <span class="percent">- 50%</span>
+            </div>
+          </a>
+        </article>
+
+        <!-- سه کارت دیگر مشابه بالا -->
+        <article class="product-card">
+          <a href="">
+            <div class="img-wrapper">
+              <img src="/img/Syltherine.png" alt="تصویر محصول ۱" />
+            </div>
+            <div class="overlay">
+              <button onclick="syltherine(event)" type="button"class="add-to-cart">Add to cart</button>
+              <div class="icons">
+                <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
+                <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
+                <i class="overlay-icon"><img src="/img/heart.png" alt="" /><span>Like</span></i>
+              </div>
+            </div>
+            <div class="content-wrapper">
+              <h2 class="product-title">syltherine</h2>
+              <span class="product-explain">stylish cafe chair</span>
+            </div>
+            <div class="price-oldprice">
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice4">2.500.000</span></span>
+              <span class="old-price"><del>Rp 3.500.000</del></span>
+            </div>
+            <div class="percent-off">
+              <span class="percent">- 30%</span>
+            </div>
+          </a>
+        </article>
+
+        <!-- کارت ۳ -->
+        <article class="product-card">
+          <a href="">
+            <div class="img-wrapper">
+              <img class="asgard-img" src="../img/lolito.png" alt="تصویر محصول ۳" />
+            </div>
+            <div class="overlay">
+              <button type="button" onclick="lolito(event)" class="add-to-cart">Add to cart</button>
+              <div class="icons">
+                <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
+                <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
+                <i class="overlay-icon"><img src="/img/heart.png" alt="" /><span>Like</span></i>
+              </div>
+            </div>
+            <div class="content-wrapper">
+              <h2 class="product-title">Lolito</h2>
+              <span class="product-explain">luxury small sofa</span>
+            </div>
+            <div class="price-oldprice">
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice2"> 7.000.000 </span></span>
+            </div>
+            <div class="percent-off">
+              <span class="percent">- 50%</span>
+            </div>
+          </a>
+        </article>
+
+        <!-- کارت ۴ -->
+        <article class="product-card">
+          <a href="">
+            <div class="img-wrapper">
+              <img src="/img/respira.png" alt="تصویر محصول ۴" />
+            </div>
+            <div class="overlay">
+              <button onclick="respira(event)" type="button" class="add-to-cart">Add to cart</button>
+              <div class="icons">
+                <i class="overlay-icon"><img src="/img/share.png" alt="" /><span>Share</span></i>
+                <i class="overlay-icon"><img src="/img/compare.png" alt="" /><span>Compare</span></i>
+                <i class="overlay-icon"><img src="/img/heart.png" alt="" /><span>Like</span></i>
+              </div>
+            </div>
+            <div class="content-wrapper">
+              <h2 class="product-title">Respira</h2>
+              <span class="product-explain">Outdoor bar table and stool</span>
+            </div>
+            <div class="price-oldprice">
+              <span class="product-price" aria-label="قیمت محصول">Rp <span id="calcPrice5"> 500.000 </span></span>
+            </div>
+          </a>
+          <div class="percent-off new">
+            <span class="percent">New</span>
+          </div>
+        </article>
+      </div>
+
+      <a href="#" class="show-more-a">
+        <button class="show-more-shop">
+          Show More
+        </button>
+      </a>
+    </section>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+      <div class="cart-sidebar-title">
+
+        <h4> Shopping Cart </h4>
+
+        <div class="icon">
+          <img src="../img/cart-sidebar-icon.png" alt="">
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="cart-sidebar-list">
+
+        <ul class="item-list" id="item-list">
+
+          <li class="nothing" id="nothing"> nothing in your cart </li>
+
+        </ul>
+
+      </div>
+
+      <div class="total-price">
+
+        <h4>Subtotal</h4>
+
+        <span id="totalDisplay" class="totalDisplay"> </span>
+
+      </div>
+
+      <div class="hr2"></div>
+
+      <div class="cart-sidebar-btns">
+
+        <button> Cart </button>
+        <button> Checkout </button>
+        <button> Comparison </button>
+
+      </div>
+
+    </div>
+
+        <div onclick="exitCart()" id="backdrop" class="backdrop"></div>
+
+  </main>
+
+  <footer>
+    <div class="footer-title">
+      <h2>Kachinava & titanic-plate9</h2>
+      <p>400 University Drive Suite 200 Coral Gables,<br>FL 33134 USA</p>
+    </div>
+    <div class="footer-links">
+      <h4>Links</h4>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-links">
+      <h4>Help</h4>
+      <nav>
+        <ul>
+          <li><a href="">Payment Options</a></li>
+          <li><a href="">Returns</a></li>
+          <li><a href="">Privacy policies</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="give-email">
+      <h4>Newsletter</h4>
+      <input type="email" placeholder="Enter Your Email address" />
+      <button>SUBSCRIBE</button>
+    </div>
+    <div class="copy-right">
+      <span>2025 Kachinava & titanic-plate9 &copy; All rights reverved</span>
+    </div>
+  </footer>
+
+  <script src="../JavaScript/single-product.js"></script>
+  <script src="../JavaScript/cart.js"></script>
+</body>
+
+</html>
