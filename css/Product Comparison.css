@@ -228,7 +228,7 @@ a {
 }
 
 .div-list-container {
-  height: 150rem;
+  height: 130.3rem;
   display: flex;
   margin: 0 3rem 0 3rem;
   border-top: 1px solid #e8e8e8;
@@ -296,4 +296,47 @@ a {
 }
 .margin-top-custom4 {
   margin-top: 7.65rem;
+}
+
+.button-add-cart {
+  background-color: #b88e2f;
+  color: white;
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.our-services {
+  margin-top: 6rem;
+  display: flex;
+  background-color: #f9f1e7;
+  padding: 4rem 2rem;
+  justify-content: space-around;
+}
+
+.service {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1.5rem;
+}
+
+.service-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.service-content h3 {
+  font-family: "poppins-semibold";
+}
+
+.service-content span {
+  font-family: "poppins-medium";
+  color: rgb(182, 182, 182);
+}
+
+footer {
+  height: 30.5rem !important;
 }
