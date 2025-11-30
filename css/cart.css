@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "mont-bold";
+    src: url(/Font/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "poppins-medium";
+    src: url(/Font/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url(/Font/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppins-semibold";
+    src: url(/Font/poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "poppins-light";
+    src: url(/Font/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "poppins-bold";
+    src: url(/Font/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "poppins-light";
+    src: url(../Font/poppins/Poppins-Light.ttf);
+}
+
+.all-cart-items{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 5rem;
+}
+
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cart-list-title{
+display: flex;
+gap: 10rem;
+padding: 1rem 10rem;
+background-color: #f9f1e7;
+font-family: "poppins-medium";
+}
+
+.name-price{
+    display: flex;
+    gap: 10rem;
+}
+
+.number{
+    display: flex;
+    gap: 2rem;
+}
+
+.cart-price{
+    background-color: #f9f1e7;
+    padding: 1rem 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cart-price .prices{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cart-price .title h2{
+    font-family: "poppins-semibold";
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-price .title:hover{
+    opacity: 1;
+}
+
+.cart-price .prices{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: "poppins-medium";
+    font-weight: normal;
+}
+
+.subtotal , .total{
+    display: flex;
+    gap: 5rem;
+}
+
+.showPrice{
+    color: #9f9f9f;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    font-family: "poppins-regular";
+    background-color: transparent;
+    padding: 1rem 3.5rem;
+    border-radius: .7rem;
+}
+
+ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul li img{
+    width: 15%;
+    border-radius: 0.5rem;
+}
