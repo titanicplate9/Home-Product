@@ -5,7 +5,6 @@
   box-sizing: border-box;
   cursor: default;
 }
-
 a {
   cursor: pointer;
 }
@@ -54,4 +53,26 @@ a {
 
 .shop--link {
   color: gray;
+}
+
+.text1 {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+.text2 {
+  color: #9f9f9f;
+  font-size: 0.9rem;
+}
+
+.text-container {
+  width: 100vw;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.form-container {
+  padding-top: 5rem;
+  width: 100vw;
+  background-color: blanchedalmond;
+  height: 30rem;
 }
