@@ -1,3 +1,15 @@
+* {
+  font-family: "poppins-medium";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+a {
+  cursor: pointer;
+}
+
 .banner {
   background-image: url(/img/banner-shop-background.png); /* مسیر تصویر پس‌زمینه */
   background-size: cover;
@@ -17,7 +29,6 @@
 }
 
 .marginRight1 {
-  margin-right: 3.5rem;
   width: 3.5rem;
   margin-top: -0.5rem;
   margin-bottom: 0.5rem;

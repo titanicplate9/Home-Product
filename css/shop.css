@@ -3,30 +3,6 @@
   padding: 0;
   transition: all 1s;
 }
-@font-face {
-  font-family: "mont-bold";
-  src: url(/Font/Montserrat/Montserrat-Bold.ttf);
-}
-@font-face {
-  font-family: "poppins-medium";
-  src: url(/Font/poppins/Poppins-Medium.ttf);
-}
-@font-face {
-  font-family: "poppins-regular";
-  src: url(/Font/poppins/Poppins-Regular.ttf);
-}
-@font-face {
-  font-family: "poppins-semibold";
-  src: url(/Font/poppins/Poppins-SemiBold.ttf);
-}
-@font-face {
-  font-family: "poppins-light";
-  src: url(/Font/poppins/Poppins-Light.ttf);
-}
-@font-face {
-  font-family: "poppins-bold";
-  src: url(/Font/poppins/Poppins-Bold.ttf);
-}
 .banner {
   background-image: url(/img/banner-shop-background.png); /* مسیر تصویر پس‌زمینه */
   background-size: cover;
